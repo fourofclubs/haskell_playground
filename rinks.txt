@@ -1,0 +1,14 @@
+Granite 1 9
+Heather 41 48
+FortRouge 51 56
+Elmwood 71 75
+DeerLodge 91 96
+Pembine 101 106
+FortGarry 111 116
+StVital 131 136
+Thistle 161 165
+Rossmere 201 206
+Charleswood 211 215
+Assiniboine 231 238
+WestStPaul 241 244
+EastStPaul 261 266
