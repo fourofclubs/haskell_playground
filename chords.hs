@@ -52,6 +52,9 @@ seventhChords = fmap seventhNotes
 printChords :: [[Integer]] -> IO ()
 printChords = void . traverse print
 
-stdTuning key = fmap ((`mod` 12) . subtract key) [4,11,7,2,9,4]
+tuning :: [Integer] -> Integer -> [Integer]
+tuning ns key = fmap ((`mod` 12) . subtract key) ns
 
-csus4add9Tuning = [2,0,4,0,5,0]
+stdTuning = tuning [4,11,7,2,9,4]
+dadgadTuning = tuning [2,9,7,2,9,2]
+csus4add9Tuning = tuning [2,0,4,0,5,0]
